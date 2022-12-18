@@ -51,16 +51,10 @@ function changeTabPanel(event) {
     hideContent(mainContainer, '[role="tabpanel"]');
     showContent(mainContainer, [`#${targetPanel}`]);
 
-    // mainContainer.querySelectorAll('[role="tabpanel"]').forEach((panel) => panel.setAttribute("hidden", true));
-    // mainContainer.querySelector([`#${targetPanel}`]).removeAttribute("hidden");
-
 
     /* switching pictures */
     hideContent(mainContainer, 'picture');
     showContent(mainContainer, [`#${targetImage}`]);
-
-    // mainContainer.querySelectorAll('picture').forEach((pic) => pic.setAttribute('hidden', true));
-    // mainContainer.querySelector([`#${targetImage}`]).removeAttribute("hidden");
 
 
     /* switching the active tab */
