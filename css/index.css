@@ -99,15 +99,14 @@ body {
 
 }
 
-/* make images easier to work with */
+
 img,
 picture {
    max-width: 100%;
-   /* display: block; */
    vertical-align: bottom;
 }
 
-/* make form elements easier to work with */
+
 input,
 button,
 textarea,
@@ -115,7 +114,6 @@ select {
    font: inherit;
 }
 
-/* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {  
  *,
  *::before,
